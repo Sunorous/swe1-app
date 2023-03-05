@@ -25,7 +25,7 @@ SECRET_KEY = '4q1hgf)f2x9krcbh3(619d2^ypq^!@8#pzb=wrjbb=+v6az3fp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'mysite-poll.us-east-1.elasticbeanstalk.com']
 
 
 # Application definition
