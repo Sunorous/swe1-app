@@ -9,8 +9,7 @@ env:
 install:
 - pip install -r requirements.txt
 
-Script:
-- pytest
+script:
 
 deploy:
   provider: elasticbeanstalk
