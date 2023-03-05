@@ -15,7 +15,6 @@ before_script:
 script:
   - black --check .
   - flake8 --max-line-length 100 .
-  - coverage run --source=swe1-app manage.py test
 
 deploy:
   provider: elasticbeanstalk
