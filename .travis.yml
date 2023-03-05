@@ -8,3 +8,15 @@ env:
 
 install:
 - pip install -r requirements.txt
+
+requiremens:
+
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "Encrypted <access-key-id>=AKIAT5SNSXTOQHO4F2XC"
+  secret_access_key:
+    secure: "Encypted <secret-access-key>=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"
+  region: "us-east-1"
+  app: "MySite Poll"
+  env: "MySitePoll-dev"
