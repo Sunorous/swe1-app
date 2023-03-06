@@ -23,7 +23,7 @@ deploy:
   region: us-east-1
   app: MySite Poll
   env: MySitePoll-dev
-  bucket_name: MySite-bucket
+  bucket_name: elasticbeanstalk-us-east-1-269671906525
   on:
     branch: main 
 
