@@ -18,9 +18,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: $access
-  secret_access_key: 
-    secure: $secret
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
   region: us-east-1
   app: MySite Poll
   env: MySitePoll-dev
