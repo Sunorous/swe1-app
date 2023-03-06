@@ -14,7 +14,8 @@ before_script:
 
 script:
   - black --check .
-  - flake8 --max-line-length 92 .
+  - flake8 .
+  - coverage run --source=polls manage.py test
 
 deploy:
   provider: elasticbeanstalk
