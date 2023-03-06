@@ -14,13 +14,13 @@ before_script:
 
 script:
   - black --check .
-  - flake8 --max-line-length 88 .
+  - flake8 --max-line-length 92 .
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id: "AKIAT5SNSXTOQHO4F2XC"
+  access_key_id: $access
   secret_access_key: 
-    secure: "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"
+    secure: $secret
   region: us-east-1
   app: MySite Poll
   env: MySitePoll-dev
