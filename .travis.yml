@@ -18,10 +18,8 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  access_key_id:
-    secure: "AKIAT5SNSXTOQHO4F2XC"
-  secret_access_key:
-    secure: "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"
+  access_key_id: "AKIAT5SNSXTOQHO4F2XC"
+  secret_access_key: "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"
   region: us-east-1
   app: MySite Poll
   env: MySitePoll-dev
