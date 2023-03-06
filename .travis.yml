@@ -27,9 +27,6 @@ deploy:
   env: MySitePoll-dev
   bucket_name: MySite-bucket
   on:
-    repo: ws2309nyu/swe1-app
-    branches:    
-      only:      
-        - main 
+    branch: main 
 
 
